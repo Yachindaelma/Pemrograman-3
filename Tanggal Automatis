@@ -1,0 +1,15 @@
+import org.joda.time.DateTime;
+
+package belajar;
+
+public class tanggal{
+	public static void main(String[] x){
+	System.out.println("menghitung tanggal automatis")
+	
+	DateTime hariIni= new DateTime();
+	System.out.println("Hari ini :" +hariIni);
+	
+	Datetime 22HariLagi = hariIni.plusDays(22);
+	System.Out.Println("22 hari lagi : "+22HariLagi);
+	}
+	}
